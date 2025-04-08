@@ -1,0 +1,1 @@
+import requests; from bs4 import BeautifulSoup; print([t.text.strip() for t in BeautifulSoup(requests.get("https://www.dosquebradas.gov.co/web/index.php/dosquebradas/ciudad/sala-de-prensa/noticias/301-vigencia-2025/8099-la-alcaldia-de-dosquebradas-y-la-universidad-libre-unen-esfuerzos-para-asistir-juridicamente-a-la-comunidad").text, "html.parser").find_all(["h1","h2","h3"])])

@@ -8,7 +8,7 @@ import requests
 ```
 Explicación: 
 
-*requests:* sirve para hacer peticiones HTTP, como cuando visitas una página web desde tu navegador.
+*requests:* sirve para hacer peticiones HTTP, como cuando visitamos una página web desde tu navegador.
 
 *BeautifulSoup:* se utiliza para analizar (parsear) el contenido HTML de las páginas web y extraer datos fácilmente.
 
@@ -21,7 +21,7 @@ page = requests.get(url)
 Explicación: 
 
 
-Definimos la URL de la página que quieres "scrapear".
+Se define la URL de la página que queremos "scrapear".
 
 Se hace la petición con requests.get(url) para obtener el contenido de esa página web.
 
@@ -34,7 +34,7 @@ Explicacion:
 
 page.text contiene el HTML completo de la página.
 
-BeautifulSoup(...) convierte ese HTML en un objeto que puedes recorrer fácilmente para buscar etiquetas específicas (como div, p, etc.).
+BeautifulSoup(...) convierte ese HTML en un objeto que podemos recorrer fácilmente para buscar etiquetas específicas (como div, p, etc.).
 
 'html.parser' es el analizador que usa BeautifulSoup para leer el HTML.
 

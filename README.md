@@ -34,7 +34,7 @@ Explicacion:
 
 page.text contiene el HTML completo de la página.
 
-BeautifulSoup(...) convierte ese HTML en un objeto que puedes recorrer fácilmente para buscar etiquetas específicas (como div, p, etc.).
+BeautifulSoup(...) convierte ese HTML en un objeto que el sistema puede recorrer fácilmente para buscar etiquetas específicas (como div, p, etc.).
 
 'html.parser' es el analizador que usa BeautifulSoup para leer el HTML.
 
